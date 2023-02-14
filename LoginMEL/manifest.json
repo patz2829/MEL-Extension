@@ -1,0 +1,20 @@
+{
+  "name": "LoginMEL",
+  "version": "1.0",
+  "description": "Automatic entered whiteboard © (Patslet) ",
+  "manifest_version": 3,
+  "author": "Patslet",  
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://vc.dial070.co.kr/openvc/*"
+      ],
+      "js": ["melscript.js"],
+      "css": ["melcss.css"]
+    }
+  ]
+}
