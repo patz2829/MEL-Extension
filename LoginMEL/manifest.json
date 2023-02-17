@@ -1,7 +1,7 @@
 {
   "name": "LoginMEL",
   "version": "1.2",
-  "description": "Automatic entered whiteboard © (Patslet) ",
+  "description": "Automatic entered whiteboard and remove wallpaper background effect © (Patslet) ",
   "manifest_version": 3,
   "author": "Patslet",  
   "permissions": [
